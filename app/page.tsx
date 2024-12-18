@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Counter } from "./components/counter/Counter";
+import QuizComponent from "./components/quiz/QuizComponent";
 
 export default function IndexPage() {
-  return <Counter />;
+  return <div>
+    <QuizComponent />
+  </div>;
 }
 
 export const metadata: Metadata = {
